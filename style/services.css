@@ -38,3 +38,10 @@
 .services .field .d_flex .box .box-text .text{
     font-size: 14px;
 }
+
+@media screen and (max-width: 450px) {
+    .services .field .d_flex{
+        flex-direction: column;
+        gap: 20px;
+    }
+}

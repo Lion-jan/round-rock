@@ -31,3 +31,13 @@ header .field h1 {
     text-shadow: 0px 0px 40px var(--black-color);
     color: var(--white-color);
 }
+
+@media screen and (max-width:450px) {
+    header {
+        padding: 2.5rem 0;
+    }
+
+    header .field h1 {
+        font-size: calc((72 / 18) * 1rem);
+    }
+}

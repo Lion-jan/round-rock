@@ -17,7 +17,6 @@
     font-weight: 700;
     padding: 15px 30px;
     color: var(--green-color);
-    color: var(--blue-color);
     border: none;
     border-radius: 35px;
     box-shadow: 0px 10px 50px var(--btn-shadow-color);
@@ -57,4 +56,14 @@ img{
 
 section{
     padding: 50px 0;
+}
+
+@media screen and(max-width:450px) {
+    .container{
+        width: 95%;
+    }
+
+    .box{
+        width: 100%;
+    }
 }
