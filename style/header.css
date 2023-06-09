@@ -39,5 +39,6 @@ header .field h1 {
 
     header .field h1 {
         font-size: calc((72 / 18) * 1rem);
+        width: 100%;
     }
 }
