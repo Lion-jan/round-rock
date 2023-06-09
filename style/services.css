@@ -42,6 +42,9 @@
 @media screen and (max-width: 450px) {
     .services .field .d_flex{
         flex-direction: column;
-        gap: 5px;
+    }
+
+    .services .field .d_flex .box{
+        margin: .5rem 0;
     }
 }
