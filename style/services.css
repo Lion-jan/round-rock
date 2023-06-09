@@ -1,0 +1,40 @@
+.services{
+    width: 100%;
+}
+
+.services .field{
+    flex-direction: column;
+}
+
+.services .field .title{
+    text-align: center;
+    font-size: calc((64 / 18) * 1rem);
+}
+
+.services .field .d_flex{
+    gap: 20px;
+}
+
+.services .field .d_flex .box{
+    margin: 4rem 0;
+}
+
+.services .field .d_flex .box:hover img{
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+    filter: brightness(80%);
+}
+
+.services .field .d_flex .box .box-text{
+    padding: 30px;
+}
+
+.services .field .d_flex .box .box-text .text-title{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+.services .field .d_flex .box .box-text .text{
+    font-size: 14px;
+}

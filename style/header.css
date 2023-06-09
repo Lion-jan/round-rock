@@ -1,0 +1,33 @@
+header {
+    width: 100%;
+    background-color: var(--blue-color);
+    padding: 5.7rem 0;
+    background: linear-gradient(180deg, rgba(18, 54, 22, 0.6) 0%, rgba(39, 123, 47, 0) 100%), url(../img/header_bg.png);
+    /* background-size: cover; */
+}
+
+header .field.d_flex {
+    flex-direction: column;
+}
+
+header .field .logo {
+    width: 300px;
+    object-fit: cover;
+    margin-bottom: 50px;
+}
+
+header .field .header-btn {
+    padding: 19px 48px;
+    background: var(--black-color);
+    color: var(--white-color);
+    cursor: auto;
+}
+
+header .field h1 {
+    font-size: calc((144 / 18) * 1rem);
+    width: 80%;
+    text-align: center;
+    padding-bottom: 50px;
+    text-shadow: 0px 0px 40px var(--black-color);
+    color: var(--white-color);
+}
